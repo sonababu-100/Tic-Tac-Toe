@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Tic Tac Toe Pro</h1>
+
+    <!-- Scoreboard -->
+    <div id="scoreboard">
+      <div class="score">Player O: <span id="scoreO">0</span></div>
+      <div class="score">Player X: <span id="scoreX">0</span></div>
+    </div>
+
+    <!-- Turn Status -->
+    <div id="status">Player O's turn</div>
+
+    <!-- Game Board -->
+    <div class="container">
+      <div class="game">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <button id="restart-btn">🔄 Restart Match</button>
+      <button id="reset-btn">♻️ Reset Game</button>
+      <button id="theme-btn">🌙 Dark Mode</button>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
